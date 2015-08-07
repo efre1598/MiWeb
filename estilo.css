@@ -52,6 +52,8 @@ nav a li{
 }
 nav li:hover{
 	color: yellow;
+	transition: .5s;
+	transform: scale(1.2,1.2);
 }
 
 article{
