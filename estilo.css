@@ -82,13 +82,14 @@ article{
 	border: 1px solid darkgreen;
 	margin-top: 5px;
 	padding: 0 .5em;
+	margin-left: .5em;
 
 
 }
 .art{
 	width: 65%;
 	float: left;
-	margin-left:.5em;
+	margin-left:.3em;
 	border-radius: 0px 0px 20px 20px;
 	border: 1px solid darkgreen;
 	margin-top: 5px;
@@ -138,6 +139,11 @@ footer p{
 		background-color: black;
 		font-size: 24px;
 	}
+}
+
+table {
+	margin-left: .3em;
+	width: 98%;
 }
 
 
