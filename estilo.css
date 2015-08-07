@@ -1,0 +1,146 @@
+* {
+	font-size: 16px;
+}
+
+header{
+	background-color: white;
+	width: 100%;
+	height: 25%;
+	overflow: hidden;
+	margin: 0;
+	color: green;
+	position: relative;
+
+}
+header h1{
+	padding-left:.5em; 
+	display: inline-block;
+}
+header img{
+	margin: .3em;
+	float: left;
+}
+header a li{
+	float: right;
+	padding-right: 10px;
+	position: absolute;
+	bottom: .2em;
+	right: 0;
+
+}
+header li{
+	list-style: none;
+}
+
+nav{
+	background-color:darkgreen;
+	border:1px solid white;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a li{
+	display: inline;
+	padding: 15px;
+	font-size: 1.4em;
+	color:white;
+	text-align: none;
+	text-decoration: none;
+}
+nav li:hover{
+	color: yellow;
+}
+
+article{
+	
+}
+
+.Usuario{
+	border: 1px solid darkgreen;
+	width: 99%;
+	border-radius: 0px 0px 20px 20px;
+	margin-top: 5px;
+
+}
+
+.info{
+	border: 1px solid darkgreen;
+	border-radius: 0px 0px 20px 20px;
+	display: block;
+	width: 99%;
+	margin-top: 5px;
+	padding: 0 .5em;	
+}
+.aimg{
+	width: 30%;
+	height: 35%;
+	float: left;
+	border-radius: 0px 0px 20px 20px;
+	border: 1px solid darkgreen;
+	margin-top: 5px;
+	padding: 0 .5em;
+
+
+}
+.art{
+	width: 65%;
+	float: left;
+	margin-left:.5em;
+	border-radius: 0px 0px 20px 20px;
+	border: 1px solid darkgreen;
+	margin-top: 5px;
+	padding: 0 .5em;
+
+}
+
+
+div{
+	margin-bottom: 14em;
+}
+
+footer{
+	width: 100%;
+	height: 125px;
+	background-color:lightgreen;
+	text-align: center;
+	position:fixed;
+	bottom:0;
+	margin-top:2em;
+	
+	text-align: center;
+ 	padding-bottom: 15px;
+}
+footer img {
+	width:40px; 
+	height:40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+footer img:hover{
+    width:50px; 
+	height:50px;
+	
+}
+footer p{
+	margin-top: -10px;
+}
+
+
+@media screen and (max-width: 800px) {
+	body {
+		background-color: black;
+		font-size: 24px;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	body {
+		background-color: green;
+		font-size: 34px;
+	}
+}
