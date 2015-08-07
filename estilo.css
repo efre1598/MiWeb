@@ -26,6 +26,7 @@ header a li{
 	position: absolute;
 	bottom: .2em;
 	right: 0;
+	color: green;
 
 }
 header li{
@@ -127,6 +128,8 @@ footer img:hover{
 }
 footer p{
 	margin-top: -10px;
+	color: darkgreen;
+	font-family:verdana;
 }
 
 
